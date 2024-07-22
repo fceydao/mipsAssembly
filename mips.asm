@@ -5,7 +5,7 @@
  inputStr: .space 11 # 10 karakter + girişin sonunu işaretleyen null karakter alanı ayrılması (Allocate space for 10 characters + null terminator)
  prompt_chars: .asciiz "Enter 10 characters: \n" # 10 karakterlik bir string girişi istenmesi (Prompt for a string of 10 characters)
  reverse_message: .asciiz "Dizinin içeriğinin ters sıralanmış hali: \n" # Tersine çevrilmiş string başlığı mesajının yüklenmesi (Message for reversed string)
- school_ids: .asciiz "-1306210023\n-1306210021\n-1306200076\n-1306200027\n1306210132\n" # Okul kimlik numaralarını içeren mesajın adresinin yüklenmesi (List of school IDs to be displayed)
+ school_ids: .asciiz "-0023\n-0021\n-0076\n-0027\n-0026\n" # Okul kimlik numaralarını içeren mesajın adresinin yüklenmesi (List of school IDs to be displayed)
 
 .text
 .globl main
